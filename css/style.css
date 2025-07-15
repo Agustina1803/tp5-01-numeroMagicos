@@ -1,7 +1,9 @@
-table, td{
-    border: 1px solid red;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-body{
-    margin: 30px;
+main {
+  flex-grow: 1;
 }
